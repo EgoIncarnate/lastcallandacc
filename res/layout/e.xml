@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>    
+ 
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+<LinearLayout
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:id="@+id/r">
+	<EditText android:id="@+id/s"
+		android:text="funny"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:contentDescription="Enter a search here"
+		android:singleLine="true" >
+	</EditText>
+	<Button android:text="Search" android:id="@+id/b"
+		android:contentDescription="Press to search"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</Button>
+</LinearLayout>
+ <ListView
+	android:contentDescription="List of results"
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:background="@drawable/ts"   
+    android:scrollbars="none"/>
+  <TextView
+    android:id="@+id/android:empty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+        android:background="@drawable/ts"   
+    android:text="Enter search to begin.  Use menu to switch between videos and channels." />
+</LinearLayout>

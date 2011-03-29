@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView android:text="More information on the video is available here"
+		android:focusable="true" 
+		android:focusableInTouchMode="true"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/ts"
+		></TextView>
+	<TextView android:layout_height="wrap_content"
+        android:background="@drawable/ts"   
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:id="@+id/t" android:layout_width="wrap_content"></TextView>
+	<Button android:text="Play" android:id="@+id/p"
+		android:focusable="true"
+		android:contentDescription="Play this video"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:id="@+id/r5"
+		android:tag="5"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:id="@+id/r4"
+		android:tag="4"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:id="@+id/r3"
+		android:tag="3"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:id="@+id/r2"
+		android:tag="2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<Button android:id="@+id/r1"
+		android:tag="1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+</LinearLayout>

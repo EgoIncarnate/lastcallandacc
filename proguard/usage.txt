@@ -1,0 +1,8 @@
+e.e.R
+e.e.R$attr
+e.e.R$drawable
+e.e.R$id
+e.e.R$layout
+e.e.R$menu
+e.e.e:
+    private android.net.http.AndroidHttpClient c
